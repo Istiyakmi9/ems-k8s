@@ -30,7 +30,7 @@ spec:
       volumes:
         - name: appsetting-volume
           hostPath:
-            path: /root/ws/emstum/Core-service/appsettings.json
+            path: appsettings.json
         - name: exception-file-volume
           persistentVolumeClaim:
             claimName: exception-files-pvc
