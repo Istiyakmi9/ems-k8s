@@ -30,7 +30,7 @@ spec:
       volumes:
         - name: appsetting-volume
           hostPath:
-            path: https://raw.githubusercontent.com/Istiyakmi9/ems-k8s/main/local/emstum/Core-service/appsettings.json
+            path: /home/bot/servicemanager.build/k8-workspace/appsettings.json
         - name: exception-file-volume
           persistentVolumeClaim:
             claimName: exception-files-pvc
