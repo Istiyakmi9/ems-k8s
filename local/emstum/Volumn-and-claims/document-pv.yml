@@ -10,5 +10,5 @@ spec:
     - ReadWriteOnce
   storageClassName: local-storage
   hostPath:
-    path: /root/ws/Documents
+    path: /home/bot/Documents
     type: DirectoryOrCreate
