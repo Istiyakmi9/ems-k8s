@@ -25,18 +25,3 @@ spec:
         - name: site-index-page
           hostPath:
             path: /root/projects/bottomhalf/index.html
-
----
-
-apiVersion: v1
-kind: Service
-metadata:
-  name: bottomhalf-service
-spec:
-  selector:
-    app: bottomhalf-site
-  ports:
-    - protocol: TCP
-      port: 8190
-      targetPort: 80
-  type: LoadBalancer
