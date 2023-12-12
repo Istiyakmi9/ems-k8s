@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: emstum-ui-pod
-        image: istiyaqmi9/hiringbell-ui:latest
+        image: istiyaqmi9/hiringbell-ui:staging
         imagePullPolicy: Always
         ports:
         - containerPort: 80
