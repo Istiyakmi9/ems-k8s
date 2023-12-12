@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: apigateway
-          image: istiyaqmi9/ems_apigateway:latest
+          image: istiyaqmi9/ems_apigateway:staging
           imagePullPolicy: Always
           ports:
             - containerPort: 8090
